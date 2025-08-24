@@ -1,0 +1,13 @@
+# Ignore helper staging folder
+stages/
+
+# Ignore OS-specific junk files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files
+*.log
+*.tmp
+
+# Node (if you later use npm)
+node_modules/
