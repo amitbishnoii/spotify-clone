@@ -1,5 +1,5 @@
 # Ignore helper staging folder
-stages/
+stage-1/
 
 # Ignore OS-specific junk files
 .DS_Store

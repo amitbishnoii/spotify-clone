@@ -1,1 +1,1 @@
-Initial commit: setup basic HTML structure
+Add navbar and main layout skeleton
