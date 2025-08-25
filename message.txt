@@ -1,1 +1,0 @@
-Add navbar and main layout skeleton
