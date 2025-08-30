@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Spotify</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <nav>
         <div class="logo">
@@ -14,7 +16,9 @@
                 <button>
                     <img src="home.svg" alt="home">
                 </button>
-                <div class="sticker">Home</div>
+                <div class="sticker">
+                    Home
+                </div>
             </div>
             <div class="searchbar">
                 <img src="search.svg" alt="search">
@@ -22,18 +26,77 @@
             </div>
         </div>
         <div class="buttons">
-            <button class="signin">Sign up</button>
-            <button class="login">Log in</button>
+            <button class="signin">
+                Sign up
+            </button>
+            <button class="login">
+                Log in
+            </button>
         </div>
     </nav>
-
     <div class="main">
         <div class="left">
-            <!-- Sidebar will come in Stage 4 -->
+            <div class="heading">
+                <h4>Your Library</h4>
+                <button>
+                    <img src="plus.svg" alt="add-songs">
+                </button>
+            </div>
+            <div class="song-box upper-box">
+                <ul>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <div><a href="https://www.spotify.com/in-en/legal/">Legal</a></div>
+                <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/">Privacy Policy</a></div>
+                <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/">Cookies</a></div>
+                <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">About Ads</a></div>
+                <div><a href="https://www.spotify.com/in-en/accessibility/">Accessibility</a></div>
+                <div><a href="https://www.spotify.com/legal/cookies-policy/" target="_blank" rel="noopener">Cookies</a>
+                </div>
+            </div>
         </div>
         <div class="right">
-            <!-- Trending songs + playbar will come later -->
+            <div class="trendingSongs">
+                <h1>Trending songs</h1>
+                <div class="songs-container">
+                    <div class="song">
+                        <img src="images.jpg" alt="john-wick">
+                        <div class="play-button">
+                            <button
+                                style="background-color: rgb(87, 234, 87); border: none; border-radius: 50%; width: 40px; height:40px; display: flex; align-items: center; justify-content: center; padding-left: 3px;">
+                                <svg width="166" height="166" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15 12.3301L9 16.6603L9 8L15 12.3301Z" fill="#000000" />
+                                </svg>
+                            </button>
+                        </div>
+                        <h2>John Wick</h2>
+                        <p>Intense songs of Baba Yaga</p>
+                    </div>
+                </div>
+            </div>
+            <div class="play-bar">
+                <div class="song-info">
+                    <div class="song-name"></div>
+                    <div class="song-duration"></div>
+                </div>
+                <div class="seekbar">
+                    <div class="circle">
+
+                    </div>
+                </div>
+                <div class="control-buttons">
+                    <img id="previous" src="previous-song.svg" alt="">
+                    <img id="play" src="play.svg" alt="">
+                    <img id="next" src="next-song.svg" alt="">
+                </div>
+                <div class="song-time">
+                </div>
+            </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
